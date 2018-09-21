@@ -1,0 +1,50 @@
+.target-audience {
+  background-color: #eeeeef;
+  padding: 6.6rem 0 6.6rem 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    display: inline-block;
+    text-align: center;
+    max-width: 21rem;
+  }
+
+  &__heading {
+    position: relative;
+    color: #384048;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 4rem 0 5rem 0;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0rem;
+      right: 3.5rem;
+      bottom: -2rem;
+      height: 0.2rem;
+      width: 13rem;
+      opacity: 0.06;
+      background: #000;
+    }
+  }
+  &__image {
+    align-content: center;
+    text-align: center;
+    min-height: 4.5rem;
+    margin-top: 8rem;
+  }
+
+  &__text {
+    margin-bottom: 3rem;
+    color: #787b80;
+  }
+
+
+
+}
