@@ -2,6 +2,11 @@
   background: #eeeeef;
   padding: 6.7rem 0 6.7rem 0;
 
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__heading {
     font-size: 1.8rem;
     position: relative;
@@ -43,5 +48,31 @@
     font-family: "PT Sans", serif;
     color: #fff;
     outline: none;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding: 0;
+
+    &__heading,
+    &__text,
+    button {
+      font-size: 2rem;
+      margin: 1rem auto 1rem auto;
+    }
+
+    &__heading {
+      &:after {
+        display: none;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      text-align: center;
+    }
+
+    &__button {
+      width: 50%;
+    }
   }
 }

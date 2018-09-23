@@ -1,5 +1,5 @@
 {
-  "name": "task-01",
+  "name": "task-04",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -8,15 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "authnpm install --save-dev --save-exact prettieror": "",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "9.1.5",
     "browser-sync": "2.24.7",
-    "gulp": "^4.0.0",
+    "gulp": "3.9.1",
     "gulp-postcss": "8.0.0",
     "gulp-rename": "1.4.0",
-    "gulp-sass": "4.0.1",
+    "gulp-sass": "^4.0.1",
     "node-sass": "4.9.3",
     "prettier": "1.14.3"
   },

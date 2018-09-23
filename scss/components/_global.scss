@@ -29,6 +29,14 @@ a {
   background-color: #368f80;
 }
 
+.fab {
+  color: lightgrey;
+}
+
+.fab:hover {
+  color: grey;
+}
+
 @font-face {
   font-family: Belinda;
   src: url("../fonts/belinda.otf");
@@ -43,3 +51,5 @@ a {
   font-family: NexaHeavy;
   src: url("../fonts/Nexa-Heavy.otf");
 }
+
+

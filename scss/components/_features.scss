@@ -32,4 +32,44 @@
     color: #50c3af;
   }
 
+  &__link:hover {
+    color: #35897a;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding: 1rem 0 0 0;
+
+    &__container {
+      flex-direction: column;
+      width: 50%
+    }
+
+    &__list-item {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__heading {
+      &:after {
+        display: none;
+      }
+    }
+
+    &__text {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    &__link {
+      display: inline-block;
+    }
+
+    &__heading,
+    &__text,
+    &__link {
+      margin: 1rem 0 1rem 0;
+      font-size: 2rem;
+    }
+  }
 }
