@@ -27,7 +27,7 @@
     }
 
     &:after {
-      content: ' ';
+      content: " ";
       display: block;
       position: absolute;
       left: 0;
@@ -52,20 +52,20 @@
     opacity: 0.6;
 
     &:nth-child(1) {
-      font-family: 'Belinda', serif;
+      font-family: "Belinda", serif;
     }
 
     &:nth-child(2) {
-      font-family: 'NexaRegular', sans-serif;
+      font-family: "NexaRegular", sans-serif;
       font-weight: 200;
     }
 
     &:nth-child(3) {
-      font-family: 'Cabin', sans-serif;
+      font-family: "Cabin", sans-serif;
     }
 
     &:nth-child(4) {
-      font-family: 'NexaHeavy', serif;
+      font-family: "NexaHeavy", serif;
     }
   }
 

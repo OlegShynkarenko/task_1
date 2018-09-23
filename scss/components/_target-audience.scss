@@ -2,7 +2,6 @@
   background-color: #eeeeef;
   padding: 6.6rem 0 6.6rem 0;
 
-
   &__container {
     display: flex;
     justify-content: space-between;
@@ -24,7 +23,7 @@
     margin: 4rem 0 5rem 0;
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 1rem;
       right: 3.5rem;
@@ -50,15 +49,14 @@
   @media screen and (max-width: $small-break-point) {
     padding: 1rem 0 1rem 0;
 
-  &__container {
-    flex-direction: column;
-  }
+    &__container {
+      flex-direction: column;
+    }
 
-  &__heading,
-  &__text {
-    font-size: 2rem;
-    margin: 1rem 0 1rem 0;
+    &__heading,
+    &__text {
+      font-size: 2rem;
+      margin: 1rem 0 1rem 0;
+    }
   }
-}
-
 }

@@ -12,7 +12,7 @@
     text-transform: uppercase;
 
     &:after {
-      content: ' ';
+      content: " ";
       display: inline-block;
       width: 18rem;
       height: 0.3rem;
@@ -41,7 +41,7 @@
 
     &__container {
       flex-direction: column;
-      width: 50%
+      width: 50%;
     }
 
     &__list-item {

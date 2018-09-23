@@ -1,14 +1,15 @@
 {
-  "name": "task-04",
+  "name": "task-01",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "start": "gulp",
+    "prettify-scss": "./node_modules/.bin/prettier --write *{/*.scss,/*/*.scss}"
   },
-  "author": "",
+  "author": "Oleg Shynkarenko",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "9.1.5",
@@ -18,9 +19,7 @@
     "gulp-rename": "1.4.0",
     "gulp-sass": "^4.0.1",
     "node-sass": "4.9.3",
-    "prettier": "1.14.3"
-  },
-  "dependencies": {
+    "prettier": "1.14.3",
     "husky": "^1.0.0-rc.14",
     "js-beautify": "^1.8.6",
     "lint-staged": "^7.3.0"
@@ -33,6 +32,10 @@
   "lint-staged": {
     "*.{js,json,css,md}": [
       "prettier --write",
+      "git add"
+    ],
+    "index.html": [
+      "js-beautify -r",
       "git add"
     ]
   }
