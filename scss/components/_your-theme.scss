@@ -20,19 +20,8 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 5.5rem;
-
-    &:after {
-      content: " ";
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 2rem;
-      width: 21rem;
-      height: 0.2rem;
-      opacity: 0.06;
-      background: #000;
-      margin-top: 1rem;
-    }
+    border-bottom: 3px solid #e2e3e4;
+    padding: 1rem 0 1rem 0;
   }
 
   &__button {
@@ -56,7 +45,7 @@
   }
 
   @media screen and (max-width: $small-break-point) {
-    padding: 1rem 0 1rem 0;
+    padding: 3rem 0 3rem 0;
 
     &__container {
       flex-direction: column;
@@ -71,19 +60,6 @@
 
     &__heading {
       margin-bottom: 2rem;
-
-      &:after {
-        content: " ";
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 2rem;
-        width: 100%;
-        height: 0.2rem;
-        opacity: 0.06;
-        background: #000;
-        margin-top: 1rem;
-      }
     }
 
     &__text {
