@@ -34,7 +34,7 @@
       "prettier --write",
       "git add"
     ],
-    "index.html": [
+    ".html": [
       "js-beautify -r",
       "git add"
     ]
