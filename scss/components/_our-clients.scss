@@ -16,9 +16,8 @@
     position: relative;
     padding: 0 0 1rem 3rem;
     text-transform: uppercase;
-    border-bottom: 3px solid rgba(255 ,255 ,255 ,0.2);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 6.5rem;
-
 
     &:before {
       content: url(../images/star.png);
@@ -52,20 +51,20 @@
     color: #fff;
     opacity: 0.6;
 
-    &:nth-child(1) {
+    &_tech {
       font-family: "Belinda", serif;
     }
 
-    &:nth-child(2) {
+    &_pro {
       font-family: "NexaRegular", sans-serif;
       font-weight: 200;
     }
 
-    &:nth-child(3) {
+    &_mash {
       font-family: "Cabin", sans-serif;
     }
 
-    &:nth-child(4) {
+    &_atl {
       font-family: "NexaHeavy", serif;
     }
   }

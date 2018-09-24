@@ -26,16 +26,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && npm run prettify-scss"
     }
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
       "prettier --write",
-      "git add"
-    ],
-    ".html": [
-      "js-beautify -r",
       "git add"
     ]
   }

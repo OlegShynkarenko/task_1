@@ -15,8 +15,6 @@
 
   &__heading {
     margin-top: 4.2rem;
-    font-size: 1.8rem;
-    text-transform: uppercase;
 
     &:after {
       content: " ";
@@ -30,11 +28,6 @@
 
   &__text {
     margin: 2.6rem 0 3.5rem 0;
-  }
-
-  &__button {
-    width: 10rem;
-    height: 3.5rem;
   }
 
   @media screen and (max-width: $small-break-point) {
