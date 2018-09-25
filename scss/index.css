@@ -15,14 +15,6 @@
   font-family: NexaHeavy;
   src: url("../fonts/Nexa-Heavy.otf");
 }
-.fab {
-  color: #d3d3d3;
-}
-
-.fab:hover {
-  color: #808080;
-}
-
 .heading_2 {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -66,6 +58,13 @@
   font-family: "PT Sans", serif;
   font-size: 1.8rem;
   color: #787b80;
+}
+
+.fab {
+  color: #d3d3d3;
+}
+.fab:hover {
+  color: #808080;
 }
 
 .container {
