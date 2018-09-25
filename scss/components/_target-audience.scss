@@ -1,0 +1,59 @@
+.target-audience {
+  background-color: #eeeeef;
+  padding: 6.6rem 0 6.6rem 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: inline-block;
+    text-align: center;
+    max-width: 21rem;
+  }
+
+  &__heading {
+    position: relative;
+    margin: 4rem 0 5rem 0;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 1rem;
+      right: 3.5rem;
+      bottom: -2rem;
+      height: 0.2rem;
+      width: 15rem;
+      opacity: 0.06;
+      background: #000;
+    }
+  }
+  &__image {
+    align-content: center;
+    text-align: center;
+    min-height: 4.5rem;
+    margin-top: 8rem;
+  }
+
+  &__text {
+    margin-bottom: 3rem;
+    color: #787b80;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding: 3rem 0 3rem 0;
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__heading,
+    &__text {
+      font-size: 2rem;
+      margin: 2rem 0 2rem 0;
+    }
+  }
+}

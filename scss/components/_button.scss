@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  border-radius: 25px;
+  background: #50c3af;
+  font-family: "PT Sans", serif;
+  color: #fff;
+  outline: none;
+
+  &_s {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 25px;
+    font-family: "PT Sans", serif;
+    outline: none;
+  }
+
+  &:hover {
+    background-color: #368f80;
+  }
+}

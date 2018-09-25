@@ -1,0 +1,70 @@
+.support-template {
+  background: #eeeeef;
+  padding: 6.7rem 0 6.7rem 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading {
+    position: relative;
+    padding-left: 3rem;
+
+    &:before {
+      content: url(../images/life-ring.png);
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0.1rem;
+    }
+
+    &:after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 2rem;
+      width: 40rem;
+      height: 0.2rem;
+      opacity: 0.06;
+      background: #000;
+      margin-top: 1rem;
+    }
+  }
+
+  &__text {
+    margin: 2.8rem 0 3.8rem 0;
+  }
+
+  &__button {
+    background: #dddfe2;
+    color: #fff;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding: 3rem 0 3rem 0;
+
+    &__heading,
+    &__text,
+    &__button {
+      font-size: 2rem;
+      margin: 1rem auto 1rem auto;
+    }
+
+    &__heading {
+      &:after {
+        display: none;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      text-align: center;
+    }
+
+    &__button {
+      width: 50%;
+    }
+  }
+}
